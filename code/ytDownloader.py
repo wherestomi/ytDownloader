@@ -31,7 +31,9 @@ while loop == True:
 print("Your video is now downloading")
 
 video = yt.streams.get_highest_resolution()
-video.download('/Users/tomiawodiya/Desktop/ytDownloads')
+
+# edit for the quotations to contain the file path you would like videos downloaded to
+video.download('')
 
 print("DOWNLOAD COMPLETE")
 
